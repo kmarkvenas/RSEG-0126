@@ -6,6 +6,9 @@ public class HelloWorld {
 		// Adding Print line statement //
 		System.out.println("Hello World!");
 		System.out.println("Hello again!");
+		
+		// Adding new code for Merging Test //
+		System.out.println("Let's do a merge");
 	}
 
 }
