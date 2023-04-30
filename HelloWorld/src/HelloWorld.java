@@ -9,6 +9,9 @@ public class HelloWorld {
 		
 		// Adding new code for Merging Test //
 		System.out.println("Let's do a merge");
+		
+		// Adding new code for Rebasing Test //
+		System.out.println("Let's do a rebase");
 	}
 
 }
