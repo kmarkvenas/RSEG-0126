@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class PrimeNumbers {
 
 	void checkForPrimes(int n) {
+		// Check for Primes Method //
 		boolean primeList[] = new boolean[n+1];
-		
 		// Creating an array of all numbers up to n //
 		// and setting them equal to true. We will check to //
 		// which ones are not primes and set to false //
