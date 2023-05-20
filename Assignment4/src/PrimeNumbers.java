@@ -29,10 +29,18 @@ public class PrimeNumbers {
 		}
 	}
 	public static void main(String[] args) {
-		// Prompt the user to enter a maximum integer
+		// Check to see if argument is passed in //
+		// Otherwise Prompt the user to enter a maximum integer
 		Scanner myScanner = new Scanner(System.in);
-		System.out.println("Enter a maxiumum integer to check: ");
-		int maxNumber = myScanner.nextInt();
+		int maxNumber = 0;
+		if (args.length == 0) {
+			System.out.println("Enter a maxiumum integer to check: ");
+			maxNumber = myScanner.nextInt();
+		}
+		else {
+			maxNumber = Integer.valueOf(args[0]);
+		}
+		//int maxNumber = myScanner.nextInt();
 		System.out.println("Checking for all primes less than " + maxNumber);
 		PrimeNumbers p = new PrimeNumbers();
 		// Call checkForPrimes to check for all numbers up to maxNumber which are Primes //
