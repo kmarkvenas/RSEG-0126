@@ -17,7 +17,7 @@ public class PrimeNumbers {
 			if (primeList[p] == true) {
 				for(int x = p*p; x <= n; x += p) {
 					//System.out.println("Checking: " + x);
-					primeList[x] = false;
+					primeList[x] = fals;
 				}
 			}
 		}
